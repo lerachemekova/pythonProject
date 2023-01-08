@@ -1,6 +1,7 @@
-def y(a):
-     print(a+1)
+import random
 
-
-y(9)
-y(8)
+a =random.randint(1, 7)
+if a ==3:
+    print('ты проиграл')
+else:
+    print('ты выиграл')
