@@ -1,4 +1,5 @@
 a =int(input())
-if a>5:
-    print("это число больше 5")
-
+if a>0:
+    print(a+1)
+if a<0:
+    print(a-2)
