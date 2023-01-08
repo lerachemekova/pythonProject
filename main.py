@@ -1,12 +1,9 @@
 a =int(input())
-c =int(input())
-if c == 1:
-    print(a)
-if c == 2:
-    print(a*1000000)
-if c == 3:
-    print(a*1000)
-if c == 4:
-    print(a/1000)
-if c == 5:
-    print(a/100)
+if a in [12, 1, 2]:
+    print("зима")
+if a in [3, 4, 5]:
+    print("весна")
+if a in [6, 7, 8]:
+    print("лето")
+if a in [9, 10, 11]:
+    print("осень")
