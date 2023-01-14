@@ -1,10 +1,5 @@
-k = int(input())
-n = int(input())
-d = int(input())
-if k+n>20 and n+d<55:
-    print("ничья")
-if k + n > 20 and n + d >55:
-    print("коля победил")
-if k + n < 20 and n + d < 55:
-    print("коля победил")
-
+a =int(input())
+b =int(input())
+c= int(input())
+if 0 < (b * b)-4*a*c:
+    print("есть корни,идем дальше")
