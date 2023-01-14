@@ -1,12 +1,6 @@
 a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
-n = a + d
-m = b - c
-if n == m:
-    print("верно")
-if n < m:
-    print("не верно")
-if n > m:
-    print("не верно")
+print(a%2)
+if a%2 == 0:
+    print(a+10)
+else:
+    print(a-10)
