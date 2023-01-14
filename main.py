@@ -1,5 +1,7 @@
-a =int(input())
-b =int(input())
-c= int(input())
-if 0 < (b * b)-4*a*c:
-    print("есть корни,идем дальше")
+a = int(input())
+if a < 60:
+    print("лёгкий вес")
+if 60 <= a <64:
+    print("1 полусредний")
+if 64 <= a :
+    print('2полусредний')
